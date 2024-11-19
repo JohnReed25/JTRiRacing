@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <link rel="stylesheet" href="stylesservices.css">
+    <script src="https://kit.fontawesome.com/2e58bb4132.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo"> <i class="fas fa-person-biking"></i>JTRi Racing</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="/" class="navbar__links">
+                        Home
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/services.html" class="navbar__links">
+                        Coaching Services
+                    </a>
+                </li>
+                <li class="navbar__item">
+                    <a href="/about.html" class="navbar__links">
+                        About
+                    </a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="/signup.html" class="button">
+                        Sign Up
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Pricing Section -->
+<section class="services">
+<h2>Choose the right plan for you</h2>
+
+<!--  Pricing Toggle Button -->
+  <div class="pricing-toggle">
+    <div class="toggle--container">
+        <span class="toggle-option">Monthly</span>
+        <label class="switch">
+            <input 
+            type="checkbox" 
+            id="pricing-toggle-checkbox" 
+            onClick="switchPricing()"
+            />
+            <span class="slider"></span>
+        </label>
+        <span class="toggle-option">Yearly</span>
+    </div>
+    <div class="save-percentage-container">
+        <span class="save-percentage">Save 20%</span>   
+    </div>
+  </div>
+
+  <div class="services__container">
+    <!-- Basic Plan -->
+     <div class="services__card">
+        <div class="card-content">
+            <h3>Basic Plan</h3>
+            <div class="card-price">
+                <p class="price monthly-price">$200/mo</p>
+                <p class="price yearly-price hidden">$160/mo</p>
+                <a href="/signup.html" class="price-btn">Get Started</a>
+                <p id="small-desc"> Everything you need to get started</p>
+            </div>
+
+            <div class="card-features">
+                <p>Features:</p>
+                <ul>
+                    <li>Training Peaks account</li>
+                    <li>Weekly training schedule updates</li>
+                    <li>Weekly email, text, or call communication</li>
+                    <li>Nutrition and pacing plans for training and racing</li>
+                    <li>Pre race strategy and post race analysis calls</li>
+                </ul>
+            </div>
+        </div>
+     </div>
+
+    <!-- Premium Plan -->
+    <div class="services__card">
+        <div class="card-content">
+            <h3>Premium Plan</h3>
+            <div class="card-price">
+                <p class="price monthly-price">$250/mo</p>
+                <p class="price yearly-price hidden">$200/mo</p>
+                <a href="/signup.html" class="price-btn">Get Started</a>
+                <p id="small-desc"> Ideal for competitive athletes</p>
+            </div>
+
+            <div class="card-features">
+                <p>Features:</p>
+                <ul>
+                    <li>Training Peaks account</li>
+                    <li>Daily training schedule updates</li>
+                    <li>Unlimited email, text, or call communication</li>
+                    <li>Nutrition and pacing plans for training and racing</li>
+                    <li>Pre race strategy and post race analysis calls</li>
+                    <li>Outlined training for each macrocycle training block</li>
+                </ul>
+            </div>
+        </div>
+     </div>   
+
+    <!-- Single Sport Plan -->
+    <div class="services__card">
+        <div class="card-content">
+            <h3>Single Sport Plan</h3>
+            <div class="card-price">
+                <p class="price monthly-price">$150/mo</p>
+                <p class="price yearly-price hidden">$120/mo</p>
+                <a href="/signup.html" class="price-btn">Get Started</a>
+                <p id="small-desc">For athletes looking for single sport coaching</p>
+            </div>
+
+            <div class="card-features">
+                <p>Features:</p>
+                <ul>
+                    <li>Training Peaks account</li>
+                    <li>Weekly training schedule updates</li>
+                    <li>Weekly email, text, or call communication</li>
+                    <li>Nutrition and pacing plans for training and racing</li>
+                    <li>Pre race strategy and post race analysis calls</li>
+                </ul>
+            </div>
+        </div>
+     </div>   
+
+
+    <!-- Elite Plan -->
+    <div class="services__card">
+        <div class="card-content">
+            <h3>Elite Plan</h3>
+            <div class="card-price">
+                <p class="price monthly-price">TBD</p>
+                <p class="price yearly-price hidden">TBD</p>
+                <a href="/signup.html" class="price-btn">Get Started</a>
+                <p id="small-desc"> For draft legal triathletes, aspiring professionals, and proffessional triathletes</p>
+            </div>
+
+            <div class="card-features">
+                <p>Features:</p>
+                <ul>
+                    <li>Includes everything in the Premium Plan</li>
+                    <li>Professional season planning targetting prize money and championship races</li>
+                    <li>Negotiated monthly price</li>
+                    <li>Must meet two of the three following time standards:</li>
+                    <li>* Sub 5:15 (men) or 6:00 (women) 500 yard freestyle</li>
+                    <li>* 4 Watts/kg (men) or 3.5 Watts/kg (women) cycling for at least 1 hour</li>
+                    <li>* Sub 15:30 (men) or 18:30 (women) 5km run on the track or roads</li>
+
+                </ul>
+            </div>
+        </div>
+     </div>
+
+  </div>
+    
+</section>
+
+<!-- Footer Section -->
+
+<div class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>About Us</h2>
+                <a href="/services.html">Services and Prices</a>
+                <a href="/about.html">Coach Bio</a>
+                <a href="/">Terms of Service</a>
+            </div>
+            <div class="footer__link--items">
+                <h2>Contact Us</h2>
+                <a href="/signup.html">Contact</a>
+                <a href="/signup.html">Support</a>
+                <a href="/signup.html">Sponsorships</a>
+            </div>
+
+        </div>
+    
+        <div class="footer__link--wrapper">
+            <!-- <div class="footer__link--items">
+                <h2>Contact Us</h2>
+                <a href="/signup.html">Contact</a>
+                <a href="/signup.html">Support</a>
+                <a href="/signup.html">Sponsorships</a>
+            </div> -->
+            
+            <div class="footer__link--items">
+                <h2>Media</h2>
+                <a href="https://www.strava.com/pros/4796727">Strava</a>
+                <a href="https://www.youtube.com/@MarshallMangler">Youtube</a>
+                <a href="https://www.instagram.com/reed.tri/">Instagram</a>
+                <a href="https://www.facebook.com/profile.php?id=100009187888857">Facebook</a>
+                <a href="https://x.com/johnreedtri">Twitter</a>
+            </div> 
+        </div> 
+    </div>
+    <div class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="/" id="footer__logo"> <i class="fas fa-person-biking"></i>JTRi Racing</a>
+            </div>
+            <p class="website__rights"> © JTRi Racing 2024. All rights reserved </p>
+            <div class="social__icons">
+                <a href="https://www.facebook.com/profile.php?id=100009187888857" class="social__icon--link" target="_blank">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/reed.tri/" class="social__icon--link" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://x.com/johnreedtri" class="social__icon--link" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.strava.com/pros/4796727" class="social__icon--link" target="_blank">
+                    <i class="fab fa-strava"></i>
+                </a>
+                <a href="https://www.youtube.com/@MarshallMangler" class="social__icon--link" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
