@@ -349,6 +349,15 @@
         margin: 2.5rem 0;
     }
 }
+/* Picture Section CSS */
+
+.picture {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: flex;
+}
 
 /* Footer CSS */
 
