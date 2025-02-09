@@ -313,9 +313,9 @@
     }
 
     .main__content {
-        height: 100vh; /* Viewport height */
+        height: flex; /* Viewport height */
         overflow-y: auto; /* Enable vertical scrolling */
-        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS devices */
+        /* -webkit-overflow-scrolling: touch; Smooth scrolling for iOS devices */
         text-align: center;
         margin-bottom: 4rem;
 
@@ -333,7 +333,7 @@
     .main__content p {
         height: 100vh; /* Viewport height */
         overflow-y: auto; /* Enable vertical scrolling */
-        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS devices */
+        /*-webkit-overflow-scrolling: touch; Smooth scrolling for iOS devices */
         margin-top: 1rem;
         font-size: 1.5rem;
     }
@@ -350,9 +350,8 @@
     }
 
     .main__content p {
-        height: 100vh; /* Viewport height */
+        height: flex; /* Viewport height */
         overflow-y: auto; /* Enable vertical scrolling */
-        -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS devices */
         margin-top: 2rem;
         font-size: 1.5rem;
     }
