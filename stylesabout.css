@@ -257,6 +257,7 @@
     position: relative;
     transition: all 0.35s;
     outline: none;
+    height: flex;
 }
 
 .main__btn a {
@@ -289,6 +290,7 @@
 
 .main__img--container {
     text-align: center;
+    height: flex;
 }
 
 #main__img {
