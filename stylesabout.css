@@ -316,7 +316,6 @@
         height: 100vh; /* Viewport height */
         overflow-y: auto; /* Enable vertical scrolling */
         -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS devices */
-        padding: 16px; /* Optional padding for better spacing */
         text-align: center;
         margin-bottom: 4rem;
 
@@ -335,7 +334,6 @@
         height: 100vh; /* Viewport height */
         overflow-y: auto; /* Enable vertical scrolling */
         -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS devices */
-        padding: 16px; /* Optional padding for better spacing */
         margin-top: 1rem;
         font-size: 1.5rem;
     }
@@ -355,7 +353,6 @@
         height: 100vh; /* Viewport height */
         overflow-y: auto; /* Enable vertical scrolling */
         -webkit-overflow-scrolling: touch; /* Smooth scrolling for iOS devices */
-        padding: 16px; /* Optional padding for better spacing */
         margin-top: 2rem;
         font-size: 1.5rem;
     }
@@ -383,14 +380,9 @@
 
 @media screen and (mad-width: 960px) {
     .picture {
+        align-items: center;
+        justify-self: center;
         height: 1600px;
-    }
-
-}
-
-@media screen and (max-width: 480px) {
-    .picture {
-        height: 1400px;
     }
 
 }
