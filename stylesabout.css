@@ -214,6 +214,7 @@
     width: 100%;
     max-width: 1300 px;
     padding: 0 50px;
+    box-sizing: border-box;
 }
 
 .main__content h1{
