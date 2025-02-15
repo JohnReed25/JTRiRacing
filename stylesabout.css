@@ -290,8 +290,8 @@
 
 .main__img--container {
     text-align: center;
-    height: flex;
-    display: flex
+    /* height: flex;
+    display: flex */
 }
 
 #main__img {
@@ -301,7 +301,7 @@
 
 /* Mobile Responsive */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 768px) {
     .main__container{
         display: grid;
         grid-template-columns: auto;
@@ -309,7 +309,7 @@
         justify-self: center;
         width: 100%;
         margin: 0 auto;
-        height: flex;
+        height: 90vh;
     }
 
     .main__content {
