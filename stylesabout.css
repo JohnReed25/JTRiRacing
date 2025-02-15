@@ -306,7 +306,8 @@
         justify-self: center;
         width: 100%;
         margin: 0 auto;
-        height: 90vh;
+        height: auto;
+        padding: 10px;
     }
 
     .main__content {
