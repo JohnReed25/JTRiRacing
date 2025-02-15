@@ -290,13 +290,13 @@
 
 .main__img--container {
     text-align: center;
-    height: flex;
-    display: flex
+    /*height: flex;
+    display: flex*/
 }
 
 #main__img {
-    height: 60%;
-    width: 60%;
+    height: 80%;
+    width: 80%;
 }
 
 /* Mobile Responsive */
@@ -361,7 +361,7 @@
         margin: 2.5rem 0;
     }
 }
-/* Picture Section CSS 
+/* Picture Section CSS */
 
 .picture {
     background: #000;
@@ -385,7 +385,7 @@
     }
 
 }
-*/
+
 /* Footer CSS */
 
 .footer__container {
