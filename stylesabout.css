@@ -290,8 +290,8 @@
 
 .main__img--container {
     text-align: center;
-    /* height: flex;
-    display: flex */
+    height: flex;
+    display: flex
 }
 
 #main__img {
