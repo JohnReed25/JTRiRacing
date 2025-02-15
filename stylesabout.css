@@ -377,7 +377,7 @@
     flex-wrap: wrap;
 }
 
-@media screen and (mad-width: 960px) {
+/*@media screen and (mad-width: 960px) {
     .picture {
         align-items: center;
         justify-self: center;
@@ -385,7 +385,7 @@
     }
 
 }
-
+*/
 /* Footer CSS */
 
 .footer__container {
